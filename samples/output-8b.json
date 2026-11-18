@@ -1,0 +1,34 @@
+{
+  "id": "score-bfbd10008e0a12be",
+  "model": "reranker",
+  "usage": {
+    "prompt_tokens": 255,
+    "total_tokens": 255
+  },
+  "results": [
+    {
+      "index": 1,
+      "document": {
+        "text": "Paris is the capital of France.",
+        "multi_modal": null
+      },
+      "relevance_score": 0.9783998727798462
+    },
+    {
+      "index": 0,
+      "document": {
+        "text": "France is a country in Europe.",
+        "multi_modal": null
+      },
+      "relevance_score": 0.00015369012544397265
+    },
+    {
+      "index": 2,
+      "document": {
+        "text": "Berlin is the capital of Germany.",
+        "multi_modal": null
+      },
+      "relevance_score": 0.00010934445890597999
+    }
+  ]
+}

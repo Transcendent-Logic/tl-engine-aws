@@ -1,0 +1,11 @@
+Qwen3-Reranker on TL Engine for Amazon SageMaker: sample notebook and examples
+Copyright 2026 Transcendent Logic
+
+This repository's notebook and examples are licensed under the Apache License, Version 2.0 (LICENSE).
+
+The AWS Marketplace listings these examples call serve Qwen3-Reranker models (Qwen3-Reranker-0.6B, -4B and -8B)
+by Alibaba Cloud's Qwen team, published at https://huggingface.co/Qwen under the Apache License, Version 2.0.
+The model files are supplied unmodified. "Qwen" is a name of its owner and is used here only to say which models
+are served.
+
+TL Engine, the inference engine in the model package's container, is not part of this repository.
