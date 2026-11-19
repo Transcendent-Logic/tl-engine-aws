@@ -50,6 +50,7 @@ aws sagemaker-runtime invoke-endpoint --endpoint-name <your endpoint> \
 ## Limits
 
 - Up to 33,000 tokens for a query and one document.
-- Up to 25 MB per real-time request and 100 MB per batch request.
+- Up to 25 MB per request, real-time or batch (batch at the recommended `MaxPayloadInMB` of 25).
+- For batch transform, set `MaxConcurrentTransforms` to 4 (the notebook does): otherwise SageMaker sends one request at a time.
 - Batch transform takes one request per input file and writes the response to `<input file name>.out`.
 
