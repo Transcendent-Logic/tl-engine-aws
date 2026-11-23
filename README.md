@@ -24,4 +24,4 @@ Email hello@transcendentlogic.com.
 
 ## Licence
 
-The notebooks and examples are licensed under Apache-2.0 ([LICENSE](LICENSE)). The models are their authors', supplied unmodified under their own licences ([NOTICE](NOTICE)). TL Engine is not part of this repository.
+The notebooks and examples are licensed under Apache-2.0 ([LICENSE](LICENSE)). The models are their authors', under their own licences; the listings carry Qwen's weights converted to TL Engine's own model file format ([NOTICE](NOTICE)). TL Engine is not part of this repository.
